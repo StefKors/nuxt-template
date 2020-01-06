@@ -1,5 +1,16 @@
 import Mode from 'frontmatter-markdown-loader/mode'
 
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/nuxt-template/'
+        }
+      }
+    : {}
+
+export default {}
+
 export default {
   mode: 'spa',
   /*
@@ -29,6 +40,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
+  ...routerBase,
   plugins: [],
   /*
    ** Nuxt.js dev-modules
