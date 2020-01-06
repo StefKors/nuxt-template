@@ -9,8 +9,6 @@ const routerBase =
       }
     : {}
 
-export default {}
-
 export default {
   mode: 'spa',
   /*
