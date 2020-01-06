@@ -1,8 +1,8 @@
 {
-  "name": "oneacre",
+  "name": "template",
   "version": "1.0.0",
-  "description": "experimental publishing",
-  "author": "Stef Kors, Titus Knegtel, Victoria Douka-Doukopoulou",
+  "description": "nuxt template",
+  "author": "Stef Kors",
   "private": true,
   "scripts": {
     "dev": "nuxt",
